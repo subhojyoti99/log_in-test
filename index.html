@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", initial-scale=1.0>
+        <title>Everything | The E-Commerce Site</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        
+        
+                                <a>Firebase web login Example</a>
+<!---------------     login-page      ------------>
+        
+        <div class="account-page">
+            <div class="container">
+                <div class="row">
+                    <div class="col-2">
+                        <div class="form-container">
+                            <div class="form-btn">
+                                <span onclick="login()">Login</span>
+                                <hr id="Indicator">
+                            </div>
+                            
+                            <form id="LoginForm">
+                                <input type="email" placeholder="Email....">
+                                <input type="password" placeholder="Password">
+                                <button onclick="log()" type="submit" class="btn">Login</button>
+                                <a href="">Forgot passord</a>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+<!---------------     footer      ------------>
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App For Android and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="Images/playstore.png">
+                        <img src="Images/appstore.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="Images/logoEve.png">
+                    <p>Our Purpose Is To Sustainably Make The Pleasure And Benefits of Friendship.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>YouTube</li>
+                    </ul>
+                </div>
+                </div>
+                <hr>
+                <p class="copyright">Copyright 2020 - **********</p>
+            </div>
+        </div>
+
+        
+        
+<!----------------- js for firebase   ------------------>
+        
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyAxOqw3SWp4ZpQPfxAMleoiI3EoXNFHJzc",
+    authDomain: "everything-325a3.firebaseapp.com",
+    projectId: "everything-325a3",
+    storageBucket: "everything-325a3.appspot.com",
+    messagingSenderId: "432499969633",
+    appId: "1:432499969633:web:8687e8a07f833f34516420",
+    measurementId: "G-5YVETLBZV0"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+        
+        
+        <script src="login.js"></script>
+        
+        
+        
+        
+    </body>
+</html>
